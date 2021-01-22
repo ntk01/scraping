@@ -6,5 +6,5 @@ you can get top 10 words which are appeared most from google search description 
 ```
 git clone  
 cd collection-words  
-python main.py  
+python3 main.py  
 ```
