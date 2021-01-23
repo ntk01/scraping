@@ -1,0 +1,24 @@
+{
+  "name": "collection-words",
+  "version": "1.0.0",
+  "description": "input a word in search box.   you can get top 10 words which are appeared most from google search description sentences.",
+  "main": "index.js",
+  "dependencies": {},
+  "devDependencies": {
+    "htmlhint": "^0.14.2"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ntk01/collection-words.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ntk01/collection-words/issues"
+  },
+  "homepage": "https://github.com/ntk01/collection-words#readme"
+}
