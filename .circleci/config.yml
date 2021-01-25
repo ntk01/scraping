@@ -20,6 +20,14 @@ jobs:
             . venv/bin/activate
             pip install gunicorn
             pip install pytest
+            pip install flask
+            pip install requests
+            pip install bs4
+            pip install janome
+            pip install nltk
+            pip install urllib3
+            pip install certifi
+            
       - run:
           command: |
             . venv/bin/activate
