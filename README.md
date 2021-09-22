@@ -7,6 +7,6 @@ you can get top 10 words which are appeared most from google search description 
 ## Usage
 ```
 git clone  
-cd collection-words  
+cd related-words-ranking
 python3 main.py  
 ```
