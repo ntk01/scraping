@@ -32,8 +32,6 @@ jobs:
           command: |
             . venv/bin/activate
             pytest src/test.py
-      - store_test_results:
-          path: test_results
       - store_artifacts:
           path: test_results
-          destination: tr1
+          destination: tr

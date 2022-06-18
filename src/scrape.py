@@ -11,11 +11,8 @@ t = Tokenizer()
 
 def get_co_occur(query):
     word_list = []
-    ua = {
-        'User-Agent': 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.87 Safari/537.36',
-    }
     for url in urls.get_urls(query):
-        res = requests.get(url, headers=ua)
+        res = requests.get(url)
         soup = bs4.BeautifulSoup(res.text, "html.parser")
         elems = soup.find_all("a")
         p = re.compile(r"<[^>]*?>")

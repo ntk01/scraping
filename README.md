@@ -1,4 +1,4 @@
-[![CircleCI](https://circleci.com/gh/ntk01/collection-words.svg?style=svg)](https://circleci.com/gh/ntk01/collection-words)
+[![CircleCI](https://circleci.com/gh/ntk01/collection-words.svg?style=svg)](https://circleci.com/gh/ntk01/related-words-ranking)
 
 ## Description
 input a word in search box.  
