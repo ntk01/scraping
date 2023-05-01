@@ -1,5 +1,5 @@
 gunicorn==19.9.0
-Flask==1.1.2
+Flask==2.3.2
 requests==2.21.0
 bs4==0.0.1
 Janome==0.3.10
